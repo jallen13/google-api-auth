@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-setup(name='google_auth',
+setup(name='google-api-auth',
       version='0.1',
       packages = find_packages(),
       )
