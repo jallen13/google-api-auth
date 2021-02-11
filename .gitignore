@@ -6,11 +6,16 @@ __pycache__/
 # Environments
 .env
 .venv
-env/
+env/*
 venv/
 ENV/
 env.bak/
 venv.bak/
 
-# VSCode settings
-.vscode
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
